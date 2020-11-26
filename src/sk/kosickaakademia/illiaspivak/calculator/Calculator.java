@@ -12,4 +12,14 @@ public class Calculator {
         c = a - b;
         System.out.println("Rozdiel: " + c);
     }
+
+    int cislo;
+
+    Calculator(int cislo) {
+        this.cislo = cislo;
+    }
+
+    public void getCislo() {
+        System.out.println("Hodnota  premennej cislo je: " + cislo);
+    }
 }
